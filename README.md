@@ -1,4 +1,8 @@
-# Build Cycle Handbook
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MIC-AIML-Build-Cycle-2026-27/.github/main/profile/assets/logo.png" alt="AIML Build Cycle logo" width="120">
+</p>
+
+<h1 align="center">Build Cycle Handbook</h1>
 
 The shared handbook for the **MIC AIML Build Cycle 2026-27**: how the cycle runs, what each review expects, and how teams work on GitHub.
 
