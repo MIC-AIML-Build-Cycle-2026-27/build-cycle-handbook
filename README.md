@@ -51,16 +51,18 @@ New project repositories should be created from [`project-template`](https://git
 
 ## Projects
 
-| # | Project | Repository |
-|---|---|---|
-| 1 | ONS (Operations Nervous System) | [ONS](https://github.com/MIC-AIML-Build-Cycle-2026-27/ONS) |
-| 2 | ASRA (Autonomous Scientific Research Agent) | [ASRA](https://github.com/MIC-AIML-Build-Cycle-2026-27/ASRA) |
-| 3 | PRISM (Property Recommendation & Interior Space Matcher) | [PRISM](https://github.com/MIC-AIML-Build-Cycle-2026-27/PRISM) |
-| 4 | Repository Fixer | [Repository-Fixer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Repository-Fixer) |
-| 5 | Hallucination Scorer | [Hallucination-Scorer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Hallucination-Scorer) |
-| 6 | Code Evolver | [Code-Evolver](https://github.com/MIC-AIML-Build-Cycle-2026-27/Code-Evolver) |
-| 7A | Developmental Language Disorder (DLD) Screening | [DLD-Screening](https://github.com/MIC-AIML-Build-Cycle-2026-27/DLD-Screening) |
-| 7B | Software Investigator | [Software-Investigator](https://github.com/MIC-AIML-Build-Cycle-2026-27/Software-Investigator) |
+| # | Project | Repository | Board |
+|---|---|---|---|
+| 1 | ONS (Operations Nervous System) | [ONS](https://github.com/MIC-AIML-Build-Cycle-2026-27/ONS) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/1) |
+| 2 | ASRA (Autonomous Scientific Research Agent) | [ASRA](https://github.com/MIC-AIML-Build-Cycle-2026-27/ASRA) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/2) |
+| 3 | PRISM (Property Recommendation & Interior Space Matcher) | [PRISM](https://github.com/MIC-AIML-Build-Cycle-2026-27/PRISM) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/3) |
+| 4 | Repository Fixer | [Repository-Fixer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Repository-Fixer) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/4) |
+| 5 | Hallucination Scorer | [Hallucination-Scorer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Hallucination-Scorer) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/5) |
+| 6 | Code Evolver | [Code-Evolver](https://github.com/MIC-AIML-Build-Cycle-2026-27/Code-Evolver) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/6) |
+| 7A | Developmental Language Disorder (DLD) Screening | [DLD-Screening](https://github.com/MIC-AIML-Build-Cycle-2026-27/DLD-Screening) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/7) |
+| 7B | Software Investigator | [Software-Investigator](https://github.com/MIC-AIML-Build-Cycle-2026-27/Software-Investigator) | [Team board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/8) |
+
+Cross-team progress: [Department Board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/9). Project boards are visible to organisation members only.
 
 ## Improving this handbook
 

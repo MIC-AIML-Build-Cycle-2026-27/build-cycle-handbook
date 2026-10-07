@@ -67,7 +67,7 @@ Teams may add labels for their own needs (e.g. `area: retrieval`). Keep the shar
 
 ### Team boards (one per project)
 
-Each team has a GitHub Project (the *Projects* tab) with these columns:
+Each team has a GitHub Project, linked from its repository's *Projects* tab, with these columns:
 
 ```
 Backlog → Todo → In Progress → Review → Testing → Done
@@ -82,25 +82,31 @@ Backlog → Todo → In Progress → Review → Testing → Done
 | **Testing** | Merged or ready to merge, being verified / evaluated |
 | **Done** | Finished and verified |
 
-Recommended board setup:
+Each board already has these columns plus **Priority** (High / Medium / Low) and **Size** (S / M / L) fields. The project team has write access, and its leads have admin access.
 
-- Add the repository's issues and PRs (enable the *Auto-add to project* workflow for the repository).
-- Enable the built-in workflows: *Item closed → Done* and *Pull request merged → Done*.
-- Add fields: **Milestone**, **Assignees**, **Labels**, and optionally **Priority** and **Size**.
+Board setup for Project Leads (once, under the board's **⋯ → Workflows**):
+
+- Enable **Auto-add to project** for the repository, so new issues and PRs appear automatically.
+- Check that *Item closed* and *Pull request merged* set Status to **Done**.
+- Show **Milestone**, **Assignees** and **Labels** in the views.
 - Useful views: *Board* (by status), *Table grouped by assignee*, *Table filtered to current milestone*.
 
 ### Department board (one for the whole cycle)
 
 A single board where **each item represents a team**, not individual tasks. It gives Department Leads an overview without cluttering team boards.
 
+The board: [Build Cycle 2026-27 · Department Board](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/9). All Project Leads can edit it.
+
 | Field | Values |
 |---|---|
-| Project | ONS, ASRA, PRISM, ... |
-| Phase | Foundation, POC, Core Build, MVP, Integration & Evaluation, Finalisation |
-| Health | On track, At risk, Off track |
+| Item title | Team name (ONS, ASRA, PRISM, ...) |
+| Status (health) | Not started, On track, At risk, Off track |
+| Phase | Foundation, Proof of Concept, Core Build, MVP, Integration & Evaluation, Finalisation |
 | Next review | Review 1, Review 2, Final Review |
 | Blockers | Free text |
 | Last update | Date |
+
+Team boards: [ONS](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/1) · [ASRA](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/2) · [PRISM](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/3) · [Repository-Fixer](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/4) · [Hallucination-Scorer](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/5) · [Code-Evolver](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/6) · [DLD-Screening](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/7) · [Software-Investigator](https://github.com/orgs/MIC-AIML-Build-Cycle-2026-27/projects/8)
 
 | Goes on the **team board** | Goes on the **department board** |
 |---|---|

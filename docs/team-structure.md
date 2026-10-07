@@ -29,10 +29,10 @@ Access follows one rule: **you get what your role needs, on your own project onl
 
 ```
 Department Leads ............ admin on every repository
-Project Leads ............... (all leads, for announcements and @mentions)
+Project Leads ............... triage on handbook, edit Department Board
 
 ONS ......................... write on ONS
- └─ ONS Leads ............... maintain on ONS          (inherits ONS membership)
+ └─ ONS Leads ............... maintain on ONS          (inherits ONS access)
 ASRA ........................ write on ASRA
  └─ ASRA Leads .............. maintain on ASRA
 ... same pattern for every project ...
@@ -41,9 +41,9 @@ ASRA ........................ write on ASRA
 | GitHub team | Who is in it | Access |
 |---|---|---|
 | `department-leads` | Department Leads | **Admin** on all repositories |
-| `project-leads` | All 16 Project Leads | **Read** on the handbook; used to notify all leads with `@MIC-AIML-Build-Cycle-2026-27/project-leads` |
-| `<project>` (e.g. `ons`) | All members of that project, including its leads | **Write** on that project's repository only |
-| `<project>-leads` (e.g. `ons-leads`), a child of the project team | That project's two leads | **Maintain** on that project's repository; requested as reviewers via CODEOWNERS |
+| `project-leads` | All 16 Project Leads | **Triage** on the handbook, and edits the Department Board. Notify all leads with `@MIC-AIML-Build-Cycle-2026-27/project-leads` |
+| `<project>` (e.g. `ons`) | All members of that project, including its leads | **Write** on that project's repository and team board only |
+| `<project>-leads` (e.g. `ons-leads`), a child of the project team | That project's two leads | **Maintain** on that project's repository; **admin** on its team board; requested as reviewers via CODEOWNERS |
 
 Why it is set up this way:
 
@@ -52,6 +52,21 @@ Why it is set up this way:
 - **Admin** is limited to Department Leads.
 - **Organisation owner** is limited to the Department Leads who administer the organisation. Everyone else is a regular member.
 - Because each project team only has access to its own repository, members do not get write access to other projects. All repositories are public, so anyone can still *read* other teams' code and learn from it.
+
+### Team reference
+
+| Project | Members team | Leads team | Repository |
+|---|---|---|---|
+| ONS | `ons` | `ons-leads` | [ONS](https://github.com/MIC-AIML-Build-Cycle-2026-27/ONS) |
+| ASRA | `asra` | `asra-leads` | [ASRA](https://github.com/MIC-AIML-Build-Cycle-2026-27/ASRA) |
+| PRISM | `prism` | `prism-leads` | [PRISM](https://github.com/MIC-AIML-Build-Cycle-2026-27/PRISM) |
+| Repository Fixer | `repository-fixer` | `repository-fixer-leads` | [Repository-Fixer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Repository-Fixer) |
+| Hallucination Scorer | `hallucination-scorer` | `hallucination-scorer-leads` | [Hallucination-Scorer](https://github.com/MIC-AIML-Build-Cycle-2026-27/Hallucination-Scorer) |
+| Code Evolver | `code-evolver` | `code-evolver-leads` | [Code-Evolver](https://github.com/MIC-AIML-Build-Cycle-2026-27/Code-Evolver) |
+| 7A DLD Screening | `dld-screening` | `dld-screening-leads` | [DLD-Screening](https://github.com/MIC-AIML-Build-Cycle-2026-27/DLD-Screening) |
+| 7B Software Investigator | `software-investigator` | `software-investigator-leads` | [Software-Investigator](https://github.com/MIC-AIML-Build-Cycle-2026-27/Software-Investigator) |
+
+To add someone: **Organisation → Teams → `<team>` → Add a member**. Add Project Leads to their project's `-leads` team **and** to `project-leads`. Members of a `-leads` team automatically inherit the parent project team's access and are included when the project team is @mentioned, so leads do not need to be added twice.
 
 ## Joining
 
